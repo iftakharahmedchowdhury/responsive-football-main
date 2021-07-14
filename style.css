@@ -259,6 +259,11 @@ margin-right: 14px;
 /* Responsive For Mobile */
 
 @media only screen and (max-device-width:688px){
+
+    .navigationBar{
+       display: none;
+        
+    }
   
     .banner{
         display: flex;
@@ -430,6 +435,10 @@ height: 80px;
 @media (max-device-width: 930px)
   and (min-device-width:638px) { 
 
+    .navigationBar{
+        display: none;
+         
+     }
     .banner{
         display: flex;
         flex-wrap:wrap;
